@@ -1,0 +1,17 @@
+# PHP specific
+/vendor/ # If you use Composer
+composer.lock
+.env # If you use environment variables for sensitive data
+/.idea/ # IDE specific (e.g., PhpStorm)
+.vscode/ # VS Code specific
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Any local configuration files with passwords/API keys
+config.local.php
+.user.ini
+/tmp/
+*.log
+/cache/
